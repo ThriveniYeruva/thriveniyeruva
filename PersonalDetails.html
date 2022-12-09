@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"></meta>
+</head>
+<body>
+<div align = "center">
+	<form>
+	<fieldset>
+
+	<h1 align="center">Personal Details</h1>
+
+	<label > Name
+	<input type="text" value = "" name="name"></input>
+	</label>
+
+	<p>
+	<label> Password
+	<input type="password" name="password"></input>
+	</label>
+	<p>
+	
+	<label > E-mail id
+	<input type="email" name="email"></input>
+	</label>
+	</p>
+	<p>
+	
+	<label > Gender
+	<input type="radio" name="gender" value="male">Male</input>
+	</label>
+	<label>
+	<input type="radio" name="gender" value="female">Female</input>
+	</label>
+	</p>
+	
+	<label>Contact:
+	<input type="tel" name="number" pattern="[0-9]{10}"></input>
+	</label>
+	<h1>Educational Qualifications</h1>
+	<label>Degree
+	<select name = "userdegree">
+	<option value="">--select Group--</option>
+	<option value="b.sc">B.Sc</option>
+	<option value="b.com">B.com</option>
+	<option value="Bzc">Bzc</option>
+	</select>
+	</label>
+	<p>
+	<label>Engineering
+	<select>
+	<option value="">--select Group--</option>
+	<option value="ece">ECE</option>
+	<option value="eee">EEE</option>
+	<option value="civil">CIVIL</option>
+	</select>
+	</label>
+	</p>
+	<p>
+	<label>Hobbies
+	<input type="checkbox" name="hobbies" value="chess">Palying chess</input>
+	<input type="checkbox" name="hobbies" value="books">Reading books</input>
+	</label>
+	</p>
+	<h1>Address</h1>
+	<p>
+	<textarea rows = "20" cols = "100"></textarea>
+	</p>
+	<p>
+	<label>Attach Resume
+	<input type="file" name="file"></input>
+	</label>
+	</p>
+	<p>
+	<input type="submit"></input>
+	
+
+	</fieldset>
+	</form>
+</div>
+</body>
+</html>
